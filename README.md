@@ -8,7 +8,7 @@ You can practice contest problems at the following links:
 
 [Codeforces Contest Link](https://codeforces.com/group/nxOH2ImmkR/contest/583932)
 
-[Hackerrank Contest Link](hhttps://www.hackerrank.com/phsco-winter25)
+[Hackerrank Contest Link](https://www.hackerrank.com/phsco-winter25)
 
 Congratulations to the following people for winning the first-ever PHSCO!
 
