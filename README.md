@@ -1,29 +1,35 @@
-# PHSCO Contest Template
+# PHSCO Winter 2025 Contest
 
-> ⚠️⚠️⚠️ IMPORTANT! Use this repository as a template; obviously, do not push new contest problem files to this repository.
+PHSCO Winter 2025 ran in a virtual format for Poolesville High School students from February 1st, 2025 to February 2nd, 2025. There were **20** participants with a combined total of **255** submissions and **79** solves.
 
-This repository contains the necessary libraries and templates to manage the problem files for a new contest on Polygon/Codeforces.
+Editorials can be found in `editorial.pdf`.
 
-`bits/stdc++.h` is provided and recommended for usage in C++ code, mainly solution files.
+You can practice contest problems at the following links:
 
-`testlib.h` is an inbuilt header on Polygon and is practically required for writing generator and validator files.
+[Codeforces Contest Link](https://codeforces.com/group/nxOH2ImmkR/contest/583932)
 
-`exports/` and `exports/export.py` is used to translate Polygon-generated contest files into Hackerrank's test case format. If a contest will be hosted on Codeforces, ignore this folder. Translation should ideally occur after all other problem files are written.
+[Hackerrank Contest Link](hhttps://www.hackerrank.com/phsco-winter25)
 
-Place problem files in `problems/A/`, `problems/B/`, and so on. This should include the problem statement PDF, if applicable.
+Congratulations to the following people for winning the first-ever PHSCO!
 
-`template/` contains example generator, solution, and validator files.
+>
+> 🥇 Ryan Diehl, 10/11 Solves, 5317 Pen.
+>
+> 🥈 Avadhut Mahumani, 8/11 Solves, 5499 Pen.
+>
+> 🥉 Shriram Masanam, 8/11 Solves, 8438 Pen.
+>
 
-## Problem Files
+Credits to the following people for helping with the organization of this contest:
 
-Each problem should contain `validator.cpp`, at least one `solution.cpp`, and preferably at least one `generator.cpp`. (File names can change.)
-
-`validator.cpp` is required and checks whether a test case is valid, to ensure programs are not passed unfamiliar input.
-
-`solution.cpp` and other solution files will be checked against the test cases. At least one solution should be the "main solution" (answer key).
-
-`generator.cpp` automatically generates specific test cases (i.e. those that test constraint limits).
-
-It is recommended to use in-built `wcmp.cpp` as the checker on Codeforces. If the problem needs a special checker (i.e. those with multiple possible solutions), write a custom `checker.cpp`. `template/wcmp_cf.cpp` contains the source code for the `wcmp.cpp` checker on Codeforces. `template/wcmp_hc.cpp` contains source code for Hackerrank's custom checker. When translating a contest from Codeforces to Hackerrank, both checker files should be written and used.
-
-> Note: Problems should be written & tested on Codeforces due to advanced solution stress-testing features, even if Hackerrank will be the main contest platform. (Of course, some testing on Hackerrank should still be done, but the process is much less streamlined - for example, solution files must be tested manually.)
+>
+> William Park - Problemsetter
+>
+> Aanshi Patel - Testing, Organization
+>
+> Nicole Sabova - Proofreading, Problem Inspiration
+>
+> Brooke Yin - Banner Artist
+>
+> Mr. Estep - Sponsoring the PHS Computer Club
+>
